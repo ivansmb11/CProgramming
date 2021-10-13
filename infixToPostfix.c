@@ -152,7 +152,7 @@ int main()
 
 	printf("ASSUMPTION: The infix expression contains single letter variables and single digit constants only.\n");
 	printf("\nEnter Infix expression : ");
-	fgets(infix);
+	gets(infix);
 
 	InfixToPostfix(infix,postfix);
 	printf("Postfix Expression: ");
